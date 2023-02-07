@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: url(taj.jps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+}
+
+.bike{
+    display: flex;
+    justify-content: center;
+}
+.bike li a{
+    display: inline-block;
+    width: 200px;
+    background-color: gray;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.bike li a:hover{
+    background-color: black;
+}
+.motor{
+    position: absolute;
+    display: none;
+}
+.bike li:hover .motor{
+    display: block;
+}
+.motor li a:hover{
+    background-color: green;
+}
+
+.boat{
+    position: absolute;
+    display: none;
+    left: 220px;
+    top: 153px;
+}
+.motor li:hover .boat{ 
+    display: block;
+}
+.boat li a:hover{
+    background-color: aquamarine;
+}
